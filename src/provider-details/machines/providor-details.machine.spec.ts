@@ -12,6 +12,7 @@ describe('test', () => {
             currentState = providerDetailsMachine.transition(currentState, event);
         }
 
+        expect(currentState.value).toEqual('name');
         send('NEXT');
         expect(currentState.value).toEqual('addresses');
         done();
