@@ -1,5 +1,5 @@
 import { validate } from "class-validator";
-import { Address, ProviderDetails } from "./provider-details/provider-details.validation";
+import { Address, ProviderDetails } from "./provider-details.validation";
 
 describe('test', () => {
     it('should be true', () => {
